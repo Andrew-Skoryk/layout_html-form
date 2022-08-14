@@ -4,9 +4,8 @@
 }
 
 .fieldset {
-  margin: 0 auto 20px;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin: 0 2px 20px;
+
 }
 
 .form-field:last-child {
