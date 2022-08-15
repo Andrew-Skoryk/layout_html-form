@@ -71,7 +71,6 @@
             type="email"
             placeholder="email@example.com"
             id="email"
-            maxlength="22"
             required
           >
         </label>
@@ -82,7 +81,8 @@
           Password:
           <input type="password"
             id="password"
-            maxlength="8"
+            minlength="8"
+            maxlength="22"
             required
           >
         </label>
@@ -165,7 +165,7 @@
         </legend>
 
         <label for="comments" class="form-field">
-        Comments:
+          Comments:
           <textarea
             name="comments"
             id="comments"
